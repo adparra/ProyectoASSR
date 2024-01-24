@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #202020;
+  color: white;
+}
+
+.remove-button {
+  display: none;
+}
+
+
+.split-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+.flex-col {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.35rem;
+  width: 100%;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: 1.1rem;
+
+}
+
+.form {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  padding: 0.75rem;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: #202020;
+}
+
+.form-header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-footer{
+  display: flex;
+  margin-left:auto;
+}
+
+.button-container {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 0.5rem;
+}
+
+.button {
+  padding: 0.5rem;
+}
+
+input,
+select {
+  padding: 0.5rem;
+  border-radius: 10px;
+  width: 100%;
+}
+
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  margin-right: 0.5rem;
+}
+
+ul {
+  list-style-type: none;
+  margin-bottom: 0.6rem;
+}
