@@ -1,6 +1,6 @@
 import {Router} from 'express';
 import { authRequired } from '../middlewares/validateToken.js';
-import { getTask,getTasks,postTask,putTask,deleteTask,getAllTasks } from 
+import { getTask,/*getTasks,*/postTask,putTask,deleteTask,getAllTasks } from 
 '../controllers/tasks.controller.js';
 
 const router = Router();
