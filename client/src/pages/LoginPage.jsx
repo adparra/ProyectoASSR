@@ -24,7 +24,7 @@ function LoginPage(){
             <div className="bg-zinc-800 max-w-md w-full p-8 rounded-md">
 
                 {signinErrors.map((error,i)=> (
-                    <div className='bg-red-500 p-2 text-white' key={i}>
+                    <div className='bg-red-500 p-2 text-white rouded-med' key={i}>
                         {error}
                     </div> 
                 ))}

@@ -14,10 +14,7 @@ function Navbar(){
             <>
             <li>Bienvenido!</li>
             <li>
-                <Link to="tasks" className="bg-indigo-500 px-4 py-1 rounded-sm">Mis órdenes</Link>
-            </li>
-            <li>
-                <Link to="/add-task" className="bg-indigo-500 px-4 py-1 rounded-sm">Añadir nueva orden</Link>
+                <Link to="tasks" className="bg-indigo-500 px-4 py-1 rounded-sm">Mis sensores</Link>
             </li>
 
             <li>

@@ -1,0 +1,6 @@
+1.- Ubicarse en la ruta "../proyectoCarshop/src"
+2.- Correr el comando "npm install"
+3.- Correr el comando "npm run dev"
+4.- Moverse a la ruta "../proyectoCarshop/client"
+5.- Correr el comando "npm install"
+6.-Correr el comando "npm run dev"

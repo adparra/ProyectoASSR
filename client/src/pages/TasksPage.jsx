@@ -12,7 +12,7 @@ function TasksPage(){
         getTasks();
     },[])
 
-    if (tasks.length === 0 ) return (<h1>No hay ordenes realizadas</h1>)
+    if (tasks.length === 0 ) return (<h1>No hay sensores registrados</h1>)
 
     return(
         <div className="grid grid-cols-3 gap-2">
